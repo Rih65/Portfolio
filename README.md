@@ -1,1 +1,75 @@
-# Portfolio
+<!DOCTYPE html>
+<html lang="ru">
+<руководитель>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сайт верстальщика</title>
+	<link href="Portfolio.css" rel="stylesheet" type="text/css">
+</head>
+<тело>
+    <header class="page-header">
+      <div class="контейнер">   
+        <a class="header-email"
+       href="mailto:velmyakin796@gmail.com">velmyakin796@gmail.com</a>
+       <a class="header-phone"
+        href="tel:+79293967707">+7 929 396 77 07</а>
+    </div>
+    </header>
+
+    <section class="hero-image">
+      <div class="контейнер">
+      <h1 class="heading">Вельмякин Роман</h1>
+      <p class="container123">Начинающий программист</p>
+    </section>
+
+    <section class="intro">
+      <h2 class="subheading">Информация</h2>
+    <div class="контейнер">
+      <h3>О себе</h3>
+      <p>Всем привет, меня зовут Роман, я начинающий вестальщик сайтов</p>
+      <h3>Чем могу быть полезен?</h3>
+      <p>
+ Могу написать сайт, написать конспект. 
+      </p>
+
+    </section>
+
+    <div class="навыки">
+      <div class="контейнер">
+      <h3>Мои навыки</h3> 
+        <dl class="skills-list">
+    <dt class="skill-html">HTML</dt>
+    <dd class="level"><div style="width: 80%;">80%</div></dd>
+    <dt class="skill-css">CSS</dt>
+    <dd class="level"><div style="width: 65%;">65%</div></dd>
+  </dl>
+    </div>
+
+
+
+    <section class="портфолио">
+      <h2 class="subheading">Мои работы</h2>
+
+      <figure class="project-image">
+  <img src="src/\project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+</рисунок>
+
+    <div class="контейнер">
+      <h3>Магазин товаров для дома</h3>
+      <p>Мой первый сайт.</p>
+      
+<a class="button" href="https://ilyhay.github.io/my-site/files/index1.html">Открыть страницу</a>
+     
+      <h3>Блог начинающего верстальщика</h3>
+      <p>Статический блог про обучение HTML и CSS.</p>
+    
+    </section>
+
+    <footer class="page-footer">   
+<div class="контейнер">
+    <a class="footer-email" href="mailto:velmyakin796@gmail.com">velmyakin796@gmail.com</a>
+     <a class="footer-phone" href="tel:+79293967707">+7 929 396 77 07</а>
+  </div>
+    </footer>
+  </body>
+</html>
